@@ -35,6 +35,10 @@ let api: {
     getHomeLatestTimeline: () => null,
 };
 
+// console.log(config.twitter, 'enableWebApi')
+// console.log(enableWebApi, 'enableWebApi')
+// console.log(enableMobileApi, 'enableMobileApi')
+
 if (enableWebApi) {
     api = webApi;
 } else if (enableMobileApi) {
