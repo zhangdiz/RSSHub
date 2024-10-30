@@ -11,7 +11,7 @@ const graphQLEndpointsPlain = [
     '/graphql/UN1i3zUiCWa-6r-Uaho4fw/SearchTimeline',
     '/graphql/Pa45JvqZuKcW1plybfgBlQ/ListLatestTweetsTimeline',
     '/graphql/QuBlQ6SxNAQCt6-kBiCXCQ/TweetDetail',
-    '/graphql/eWTmcJY3EMh-dxIR7CYTKw/Following', // 正在关注
+    '/graphql/JDcfgeQj5nyNGGRk46JM5w/FollowersYouKnow', // 正在关注
 ];
 
 const gqlMap = Object.fromEntries(graphQLEndpointsPlain.map((endpoint) => [endpoint.split('/')[3].replace(/V2$|Query$|QueryV2$/, ''), endpoint]));

@@ -1,0 +1,16 @@
+{
+    "apps": [
+        {
+            "name": "server test",
+            "script": "npm run dev",
+            "exec_mode": "fork",
+            "max_memory_restart": "1G",
+            "autorestart": true,
+            "env": {
+                "TWITTER_USERNAME": "zd090501@gmail.com",
+                "TWITTER_PASSWORD": "090569.?Zd16zdgx",
+                "TWITTER_AUTH_TOKEN": "8a9ee5b6abf60ba3fc1bc845233679a8cc96fc94"
+            }
+        }
+    ]
+}
