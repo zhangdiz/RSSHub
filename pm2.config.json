@@ -1,15 +1,86 @@
 {
     "apps": [
         {
-            "name": "server test",
+            "name": "server ANGI_AOUE",
             "script": "npm run dev",
             "exec_mode": "fork",
             "max_memory_restart": "1G",
             "autorestart": true,
             "env": {
+                "port": 1200,
                 "TWITTER_USERNAME": "zd090501@gmail.com",
                 "TWITTER_PASSWORD": "090569.?Zd16zdgx",
                 "TWITTER_AUTH_TOKEN": "8a9ee5b6abf60ba3fc1bc845233679a8cc96fc94"
+            }
+        },
+        {
+            "name": "server ANGI_AOUE_1",
+            "script": "npm run dev",
+            "exec_mode": "fork",
+            "max_memory_restart": "1G",
+            "autorestart": true,
+            "env": {
+                "port": 1201,
+                "TWITTER_USERNAME": "zd090501@gmail.com",
+                "TWITTER_PASSWORD": "090569.?Zd16zdgx",
+                "TWITTER_AUTH_TOKEN": "8a9ee5b6abf60ba3fc1bc845233679a8cc96fc94",
+                "PROXY_URI": "http://dHMEzWEL:xcW2nun5@156.246.212.102:63636"
+            }
+        },
+        {
+            "name": "server ANGI_AOUE_2",
+            "script": "npm run dev",
+            "exec_mode": "fork",
+            "max_memory_restart": "1G",
+            "autorestart": true,
+            "env": {
+                "port": 1202,
+                "TWITTER_USERNAME": "zd090501@gmail.com",
+                "TWITTER_PASSWORD": "090569.?Zd16zdgx",
+                "TWITTER_AUTH_TOKEN": "8a9ee5b6abf60ba3fc1bc845233679a8cc96fc94",
+                "PROXY_URI": "http://dHMEzWEL:xcW2nun5@45.145.162.38:64344"
+            }
+        },
+        {
+            "name": "server ANGI_AOUE_3",
+            "script": "npm run dev",
+            "exec_mode": "fork",
+            "max_memory_restart": "1G",
+            "autorestart": true,
+            "env": {
+                "port": 1203,
+                "TWITTER_USERNAME": "zd090501@gmail.com",
+                "TWITTER_PASSWORD": "090569.?Zd16zdgx",
+                "TWITTER_AUTH_TOKEN": "8a9ee5b6abf60ba3fc1bc845233679a8cc96fc94",
+                "PROXY_URI": "http://dHMEzWEL:xcW2nun5@5.57.211.43:62532"
+            }
+        },
+        {
+            "name": "server ANGI_AOUE_4",
+            "script": "npm run dev",
+            "exec_mode": "fork",
+            "max_memory_restart": "1G",
+            "autorestart": true,
+            "env": {
+                "port": 1204,
+                "TWITTER_USERNAME": "zd090501@gmail.com",
+                "TWITTER_PASSWORD": "090569.?Zd16zdgx",
+                "TWITTER_AUTH_TOKEN": "8a9ee5b6abf60ba3fc1bc845233679a8cc96fc94",
+                "PROXY_URI": "http://dHMEzWEL:xcW2nun5@193.104.177.130:63406"
+            }
+        },
+        {
+            "name": "server ANGI_AOUE_5",
+            "script": "npm run dev",
+            "exec_mode": "fork",
+            "max_memory_restart": "1G",
+            "autorestart": true,
+            "env": {
+                "port": 1205,
+                "TWITTER_USERNAME": "zd090501@gmail.com",
+                "TWITTER_PASSWORD": "090569.?Zd16zdgx",
+                "TWITTER_AUTH_TOKEN": "8a9ee5b6abf60ba3fc1bc845233679a8cc96fc94",
+                "PROXY_URI": "http://dHMEzWEL:xcW2nun5@45.83.87.31:64160"
             }
         }
     ]
